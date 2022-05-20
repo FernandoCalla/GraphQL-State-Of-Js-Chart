@@ -10,7 +10,10 @@ import {
 } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: 'https://api.stateofjs.com/graphq',
+  uri: 'https://api.stateofjs.com/graphql',
+  fetchOptions: {
+    mode: 'no-cors'
+  },
   cache: new InMemoryCache()
 });
 const root = ReactDOM.createRoot(document.getElementById('root'));
