@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.tablechart {
+  height: 50%;
+  width: 100%;
+}
+
+div.circlechart {
+  height: 30%;
+  width: 30%;
+  border: 1px inset #000;
+  margin: 10px;
+  padding: 10px;
+}
+
+div.chartContainer {
+  display: flex;  
+  flex-wrap: wrap;
+}
