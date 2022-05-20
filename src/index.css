@@ -20,7 +20,7 @@ div.tablechart {
 div.circlechart {
   height: 30%;
   width: 30%;
-  border: 1px inset #000;
+  border: 1px solid rgb(132, 128, 128);
   margin: 10px;
   padding: 10px;
 }

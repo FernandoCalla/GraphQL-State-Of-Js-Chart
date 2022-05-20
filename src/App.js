@@ -1,11 +1,10 @@
 import './App.css'
-import ReactExperienceChart from './pages/reactExperienceChart';
-import Chart from './pages/reactChart';
+import DetailCharts from './pages/DetailCharts';
 
 function App() {
   return (
     <div>
-      <ReactExperienceChart />
+      <DetailCharts />
     </div>
   );
 }

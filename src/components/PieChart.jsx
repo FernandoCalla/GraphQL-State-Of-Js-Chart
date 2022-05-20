@@ -1,7 +1,6 @@
 import React from "react";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Pie } from "react-chartjs-2";
-import JSdata from '../data/reactExperience.json'
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -33,5 +32,5 @@ export function PieChart({year}) {
           }
         ]
       };
-  return <div className="circlechart"><h1>{year.year}</h1><Pie data={dataChart} /></div>;
+  return <div className="circlechart"><center><h1>{year.year}</h1></center><Pie data={dataChart} /></div>;
 }

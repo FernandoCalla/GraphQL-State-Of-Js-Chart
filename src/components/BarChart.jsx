@@ -20,7 +20,6 @@ ChartJS.register(
 );
 
 export default function Chart({all_years}) {
-    console.log(all_years)
     const options = {
         responsive: true,
         plugins: {
